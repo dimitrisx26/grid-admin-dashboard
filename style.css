@@ -29,7 +29,7 @@
     grid-area: sidebar;
     gap: 30px;
     grid-template-rows: 0.4fr 1fr 4fr;
-    
+    overflow-y: scroll;
 }
 
 .logo {
@@ -189,6 +189,7 @@
         "projects announcements"
         "projects trending"
     ;
+    overflow-y: scroll;
 }
 
 .projects-list {
